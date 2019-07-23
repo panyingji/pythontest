@@ -23,6 +23,7 @@ html_doc = ele.get_attribute('innerHTML')
 soup = BeautifulSoup(html_doc,'html5lib')
 dls = soup.find_all('dl')
 
+
 citys = []
 for dl in dls:
     name = dl.dt.a.string
