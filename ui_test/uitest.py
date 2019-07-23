@@ -27,7 +27,7 @@ else:
     print('fail')
     print(res2)
 
-time.sleep(5)
+time.sleep(3)
 
 
 driver.quit()
