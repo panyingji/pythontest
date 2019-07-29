@@ -31,8 +31,8 @@ print(driver.contexts)
 print(driver.current_context)
 try:
     driver.implicitly_wait(10)
-    # ele = driver.find_element_by_android_uiautomator('new UiSelector().textContains("手机号登录")')
-    # ele.click()
+    # one = driver.find_element_by_android_uiautomator('new UiSelector().textContains("手机号登录")')
+    # one.click()
     # driver.find_element_by_xpath('//android.widget.TextView[@text="手机号登录"]').click()
     # driver.find_element_by_android_uiautomator(
     #     'new UiSelector().className("android.widget.TextView").text("手机号登录")').click()
